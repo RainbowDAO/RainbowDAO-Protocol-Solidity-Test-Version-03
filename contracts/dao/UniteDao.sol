@@ -5,11 +5,12 @@ import "hardhat/console.sol";
 import "@openzeppelin/contracts/utils/structs/EnumerableSet.sol";
 
 contract UniteDao {
+    using EnumerableSet for EnumerableSet.AddressSet;
     //联合Dao
     EnumerableSet.AddressSet private uniteDao;
     /*
-  *获取会员长度
-  */
+     *获取会员长度
+     */
     function getMemberLength() public view returns (uint256) {
         return uniteDao.length();
     }
