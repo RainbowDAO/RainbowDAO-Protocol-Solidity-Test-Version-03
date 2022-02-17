@@ -4,12 +4,16 @@
     <option name="openedFilesInfos">
       <list>
         <OpenedFileInfo>
-          <option name="caretOffset" value="492" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/test/sample-test.js" />
+          <option name="caretOffset" value="313" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/contracts/BaseDao.sol" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="0" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/contracts/Greeter.sol" />
+          <option name="caretOffset" value="244" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/contracts/Dao.sol" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="166" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/contracts/ChildDao.sol" />
         </OpenedFileInfo>
       </list>
     </option>
