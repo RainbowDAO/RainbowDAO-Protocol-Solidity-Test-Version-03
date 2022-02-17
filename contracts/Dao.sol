@@ -38,4 +38,53 @@ contract Dao is BaseDao {
     function openUnite() public {
         unit = new UniteDao();
     }
+    /*
+    *获取部门长度
+    */
+    function getDepartmentLength() public view returns (uint256) {
+        return department.length();
+    }
+    /**
+    * 添加部门
+    */
+    function addDepartment(address _member) public {
+        department.add(_member);
+    }
+    /**
+   * 获取部门
+   */
+    function getDepartment(uint index) public view returns (address){
+        return department.at(index);
+    }
+    /**
+    * 移除部门
+    */
+    function removeDepartment(address _member) public {
+        department.remove(_member);
+    }
+    /*
+   *获取子Dao长度
+   */
+    function getChildDaoLength() public view returns (uint256) {
+        return childDao.length();
+    }
+    /**
+    * 添加子Dao
+    */
+    function addChildDaoMember(address _member) public {
+        childDao.add(_member);
+    }
+    /**
+   * 获取子Dao
+   */
+    function getChildDao(uint index) public view returns (address){
+        return childDao.at(index);
+    }
+    /**
+    * 移除子Dao
+    */
+    function removeChildDao(address _member) public {
+        childDao.remove(_member);
+    }
+
 }

@@ -31,7 +31,8 @@ contract Owner {
      */
     constructor() {
         console.log(msg.sender);
-        owner = msg.sender; // 'msg.sender' is sender of current call, contract deployer for a constructor
+        owner = msg.sender;
+        // 'msg.sender' is sender of current call, contract deployer for a constructor
         emit OwnerSet(address(0), owner);
     }
 
