@@ -3,6 +3,6 @@ pragma solidity ^0.8.0;
 
 import "hardhat/console.sol";
 import "./BaseDao.sol";
-contract Dao is BaseDao {
+contract Department is BaseDao {
 
 }

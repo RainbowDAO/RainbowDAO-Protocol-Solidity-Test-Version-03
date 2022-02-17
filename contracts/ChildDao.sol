@@ -7,7 +7,7 @@ contract ChildDao is BaseDao {
     /**
     * 加入Dao
     */
-    function addDao(){
+    function addDao() public{
 
     }
 }
