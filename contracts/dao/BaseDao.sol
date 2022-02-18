@@ -37,7 +37,7 @@ contract BaseDao {
    * 获取会员
    */
     function getMember(uint index) public view returns (address){
-       return member.at(index);
+        return member.at(index);
     }
     /**
     * 移除会员
@@ -45,4 +45,5 @@ contract BaseDao {
     function removeMember(address _member) public {
         member.remove(_member);
     }
+
 }

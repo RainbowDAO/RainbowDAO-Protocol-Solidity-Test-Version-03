@@ -9,7 +9,7 @@ describe("UniteDao", () => {
     //
     // wait until the transaction is mined
 
-    // console.log(await dao.father());
+    // console.log(await contract.father());
     //
     // expect(await greeter.greet()).to.equal("Hola, mundo!");
   });
