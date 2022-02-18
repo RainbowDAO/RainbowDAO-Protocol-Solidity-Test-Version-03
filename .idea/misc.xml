@@ -31,6 +31,10 @@
           <option name="caretOffset" value="521" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/contracts/Dao.sol" />
         </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/README.md" />
+        </OpenedFileInfo>
       </list>
     </option>
   </component>
