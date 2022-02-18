@@ -4,36 +4,12 @@
     <option name="openedFilesInfos">
       <list>
         <OpenedFileInfo>
-          <option name="caretOffset" value="824" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/contracts/BaseDao.sol" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="597" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/test/dao.js" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="503" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/test/basedao.js" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="169" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/contracts/UniteDao.sol" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="232" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/test/uniteDao.js" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="2544" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/node_modules/@openzeppelin/contracts/access/AccessControl.sol" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="521" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/contracts/Dao.sol" />
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/README.md" />
         </OpenedFileInfo>
         <OpenedFileInfo>
           <option name="caretOffset" value="0" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/README.md" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/test/product/createDao.js" />
         </OpenedFileInfo>
       </list>
     </option>
