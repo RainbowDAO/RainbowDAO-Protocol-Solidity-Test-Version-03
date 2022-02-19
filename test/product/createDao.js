@@ -1,9 +1,9 @@
 const { expect } = require("chai");
 const { ethers } = require("hardhat");
 
-describe("Dao", function () {
-  it("Should return the new greeting once it's changed", async function () {
-    const dao =await cteateDao();
+describe("Dao", function() {
+  it("Should return the new greeting once it's changed", async function() {
+    const dao = await cteateDao();
     console.log(dao);
     // const setGreetingTx = await dao.setFather("0x4182D8431e74a5BD044244D1EddA5BbB8583E4F0");
     //
@@ -15,7 +15,6 @@ describe("Dao", function () {
   });
 });
 
-//创建Dao
 async function cteateDao() {
   const Dao = await ethers.getContractFactory("Dao");
   const dao = await Dao.deploy();
