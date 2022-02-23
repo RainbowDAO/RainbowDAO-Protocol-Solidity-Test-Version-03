@@ -9,7 +9,7 @@
 
 [Flybook portal](https://xd5mvn33t6.feishu.cn/drive/folder/fldcnMMLcVOBqcURevBHPoT83jg )
 
-##Develop
+## Develop
 
 Please install the latest node environment and NPM tools.
 
@@ -19,19 +19,19 @@ Please install the latest node environment and NPM tools.
 
 
 
-##Deploy
+## Deploy
 
 Pending deployment
 
 
 
-##Contract information
+## Contract information
 
 The contracts are placed under the contracts directory
 
 
 
-##Test information
+## Test information
 
 Testing is divided into contract testing and product testing.
 
@@ -44,7 +44,7 @@ Each contract will have corresponding test documents.
 
 
 
-###Contract test
+### Contract test
 
 >The contract test information is under test/contract, and the contract path and file name are consistent with the test path and file name
 
@@ -52,6 +52,6 @@ Each contract will have corresponding test documents.
 
 
 
-###Product process test
+### Product process test
 
 >The product test information is under test/product, and each file is a separate product process
