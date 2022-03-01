@@ -1,14 +1,7 @@
 # Rainbow
 
 
-
-
-## Product information
-
-
-
-[Flybook portal](https://xd5mvn33t6.feishu.cn/drive/folder/fldcnMMLcVOBqcURevBHPoT83jg )
-
+ 
 ## Develop
 
 Please install the latest node environment and NPM tools.
