@@ -11,16 +11,16 @@ contract Router {
         getDao[name] = address(dao);
     }
 
-    function setDao(){
+    function setDao() public{
 
     }
 
-    function joinDao(string memory name){
+    function joinDao(string memory name) public{
         Dao(getDao[name]).addMember(msg.sender);
 
     }
 
-    function joinDao2(address _address){
+    function joinDao2(address _address) public{
         Dao(_address).addMember(msg.sender);
     }
 }
