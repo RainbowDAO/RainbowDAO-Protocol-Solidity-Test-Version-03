@@ -1,23 +1,16 @@
-const { expect } = require("chai");
-const { ethers } = require("hardhat");
+const {expect} = require("chai");
+const {ethers} = require("hardhat");
+const {getDao} = require("../untils/Dao");
 
-describe("Dao", function() {
-  it("Should return the new greeting once it's changed", async function() {
-    const dao = await cteateDao();
-    console.log(dao);
-    // const setGreetingTx = await dao.setFather("0x4182D8431e74a5BD044244D1EddA5BbB8583E4F0");
-    //
-    // wait until the transaction is mined
-    // await setGreetingTx.wait();
-    // console.log(await baseDao.father());
-    //
-    // expect(await greeter.greet()).to.equal("Hola, mundo!");
-  });
+const name = "RainbowTest Dao";
+const abname = "RbDao";
+const info = "Rainbow Test Dao";
+const logo = "https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png";
+const erc20 = "0x73f8fc2e74302eb2efda125a326655acf0dc2d1b";
+
+describe("CreateDao", function () {
+    it("Should return the new greeting once it's changed", async function () {
+        const dao = await getDao(name, abname, info, logo, erc20);
+        console.log(dao);
+    });
 });
-
-async function cteateDao() {
-  const Dao = await ethers.getContractFactory("Dao");
-  const dao = await Dao.deploy();
-  await dao.deployed();
-  return dao;
-}

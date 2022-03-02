@@ -13,14 +13,25 @@ contract Dao is BaseDao {
     EnumerableSet.AddressSet private childDao;
     UniteDao public unit = UniteDao(address(0x0));
 
+
+
+    constructor(string memory _name, string memory _abname, string memory _info, string memory _logo, address _erc20)
+    BaseDao(_name, _abname, _info, _logo, _erc20){
+
+    }
+
     function isUnite() public view returns (bool){
         return address(unit) != address(0x0);
     }
 
+    function join(address _address) public {
+        addMember(_address);
+    }
     modifier _checkUnite(){
         require(address(unit) != address(0x0), "Unite is not open");
         _;
     }
+
     function addUnite() _checkUnite public {
 
     }

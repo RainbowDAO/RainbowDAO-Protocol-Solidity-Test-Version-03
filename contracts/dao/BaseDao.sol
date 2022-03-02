@@ -5,6 +5,20 @@ import "hardhat/console.sol";
 import "@openzeppelin/contracts/utils/structs/EnumerableSet.sol";
 
 contract BaseDao {
+
+    string public name;
+    string public  abname;
+    string public info;
+    string public  logo;
+    address public erc20;
+
+    constructor(string memory _name, string memory _abname, string memory _info, string memory _logo, address _erc20){
+        name = _name;
+        abname = _abname;
+        info = _info;
+        logo = _logo;
+        erc20 = _erc20;
+    }
     using EnumerableSet for EnumerableSet.AddressSet;
 
     address public father;
