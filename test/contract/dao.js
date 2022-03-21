@@ -3,11 +3,11 @@ const { ethers } = require("hardhat");
 
 describe("Dao", () => {
   it("Should return the new greeting once it's changed", async function() {
-    const Dao = await ethers.getContractFactory("Dao");
-    const dao = await Dao.deploy();
-    await dao.deployed();
-
-    await checkUnite(dao);
+    // const Dao = await ethers.getContractFactory("Dao");
+    // const dao = await Dao.deploy();
+    // await dao.deployed();
+    //
+    // await checkUnite(dao);
     //
     // wait until the transaction is mined
 

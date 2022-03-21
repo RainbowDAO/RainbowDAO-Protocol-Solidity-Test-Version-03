@@ -1,6 +1,6 @@
 const {expect} = require("chai");
 const {ethers} = require("hardhat");
-const {getDao} = require("../untils/Dao");
+const {getDao,setAdmin} = require("../untils/Dao");
 
 const name = "RainbowTest Dao";
 const abname = "RbDao";
@@ -11,6 +11,7 @@ const erc20 = "0x73f8fc2e74302eb2efda125a326655acf0dc2d1b";
 describe("CreateDao", function () {
     it("Should return the new greeting once it's changed", async function () {
         const dao = await getDao(name, abname, info, logo, erc20);
+        setAdmin();
         console.log(dao);
     });
 });

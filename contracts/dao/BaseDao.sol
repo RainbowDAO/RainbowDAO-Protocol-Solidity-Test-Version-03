@@ -11,6 +11,7 @@ contract BaseDao {
     string public info;
     string public  logo;
     address public erc20;
+    address public admin;
 
     constructor(string memory _name, string memory _abname, string memory _info, string memory _logo, address _erc20){
         name = _name;
@@ -45,4 +46,7 @@ contract BaseDao {
         member.remove(_member);
     }
 
+    function setAdmin(address _address) public{
+        admin = _address;
+    }
 }

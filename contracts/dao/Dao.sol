@@ -13,8 +13,6 @@ contract Dao is BaseDao {
     EnumerableSet.AddressSet private childDao;
     UniteDao public unit = UniteDao(address(0x0));
 
-
-
     constructor(string memory _name, string memory _abname, string memory _info, string memory _logo, address _erc20)
     BaseDao(_name, _abname, _info, _logo, _erc20){
 
@@ -75,5 +73,5 @@ contract Dao is BaseDao {
     function removeChildDao(address _member) public {
         childDao.remove(_member);
     }
-
+    function
 }
